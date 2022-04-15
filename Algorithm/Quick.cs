@@ -4,16 +4,16 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MainOrder
+namespace MainOrder.Algorithm
 {
-    class Selection
+    class Quick
     {
-        public Selection()
+        public Quick()
         {
 
         }
 
-        public void AlgoSelection()
+        public void AlgoQuick()
         {
 
         }

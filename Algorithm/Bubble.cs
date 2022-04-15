@@ -4,16 +4,16 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MainOrder
+namespace MainOrder.Algorithm
 {
-    class Selection
+    class Bubble
     {
-        public Selection()
+        public Bubble()
         {
 
         }
 
-        public void AlgoSelection()
+        public void AlgoBubble()
         {
 
         }

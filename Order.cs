@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using MainOrder.Algorithm;
 
 namespace MainOrder
 {
@@ -17,6 +18,10 @@ namespace MainOrder
 
         public void Menu()
         {
+            Selection algSelection = new Selection();
+            Quick algQuick = new Quick();
+            Bubble algBubble = new Bubble();
+
             do
             {
                 Console.WriteLine("-------------------------------");
@@ -33,10 +38,13 @@ namespace MainOrder
                 switch (entrada)
                 {
                     case 1:
+                        algSelection.AlgoSelection();
                         break;
                     case 2:
+                        algQuick.AlgoQuick();
                         break;
                     case 3:
+                        algBubble.AlgoBubble();
                         break;
                     case 0:
                         break;
